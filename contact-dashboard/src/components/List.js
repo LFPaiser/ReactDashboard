@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact from './Contact';
+import Contact from './components/Contact';
 
 class List extends React.Component{
     render() {
@@ -12,3 +12,5 @@ class List extends React.Component{
         )
     }
 }
+
+export default List;
