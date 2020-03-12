@@ -1,9 +1,16 @@
 import React from 'react';
+import ContactList from './ContactList';
 
-export default class App extends React.Component {
+
+class App extends React.Component {
     render() {
-        return ( <
-            h1 > Hello React < /h1>
+        return (
+            <div>
+                <h1> Contacts Dashboard </h1>
+                <div><ContactList /></div>
+            </div>
         )
     }
 }
+
+export default App;
