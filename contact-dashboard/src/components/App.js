@@ -1,13 +1,12 @@
 import React from 'react';
-import ContactList from './ContactList';
-
+import List from './List';
 
 class App extends React.Component {
     render() {
         return (
             <div>
                 <h1> Contacts Dashboard </h1>
-                <div><ContactList /></div>
+                <div><List></List></div>
             </div>
         )
     }
